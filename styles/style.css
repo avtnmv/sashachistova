@@ -648,6 +648,8 @@ height: 802px;
         overflow: hidden;
         padding: 60px 0;
         position: relative;
+        white-space: nowrap;
+        width: 370px;
       }
       
       
@@ -688,6 +690,9 @@ height: 802px;
     overflow: hidden;
     padding: 60px 0;
     position: relative;
+    white-space: nowrap;
+    width: 1320px;
+    margin: auto;
   }
   
 
