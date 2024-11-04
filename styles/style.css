@@ -281,7 +281,7 @@ height: 152px;
   
   .logos-slide {
     display: inline-block;
-    animation: 35s slide infinite linear;
+    animation: 20s slide infinite linear;
   }
   
   .logos-slide img {
@@ -641,5 +641,8 @@ height: 802px;
     .winner-p{
         margin-top: -146px;
         z-index: 96;
+    }
+    .herosection-span{
+        line-height: 60px;
     }
 }
