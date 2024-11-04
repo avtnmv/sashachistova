@@ -399,6 +399,7 @@ button {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    line-height: 85px;
 }
 .winner-small{
     color: #FFF;
@@ -412,6 +413,16 @@ button {
 .winner-p{
     text-align: center;
 }
+.winner-img{
+    width: 650px;
+height: 802px;
+}
+.winner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
 
 
 @media (max-width: 1250px){
@@ -423,16 +434,16 @@ button {
         z-index: 40;
     }
     .whats-reflects-me-img{
-        width: 370px;
+        width: 375px;
         height: 230px;
     }
 
     .whats-reflects-me-img-two{
         height: 270px;
-        width: 370px;
+        width: 375px;
     }
     .whats-reflects-me-first{
-        width: 370px;
+        width: 375px;
     }
 
     .whats-reflects-me-second p{
@@ -458,7 +469,7 @@ button {
         height: auto;
     }
     .vector-bg{
-    width: 370px;
+    width: 375px;
     font-size: 15px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -467,7 +478,7 @@ button {
 
     .cases {
         position: relative;
-        width: 370px; /* Ширина блока уменьшена для центрирования */
+        width: 375px; /* Ширина блока уменьшена для центрирования */
         margin: 0 auto; /* Центрирует блок .cases по горизонтали */
         z-index: 1; /* Убедитесь, что .cases всегда выше изображения */
         display: flex;
@@ -492,7 +503,7 @@ button {
     }
     :root {
         --marquee-elements-displayed: 2;
-        --marquee-width: 370px;
+        --marquee-width: 375px;
     }
     .cases-motto{
         margin-top: 50px;
@@ -511,7 +522,7 @@ button {
         margin-top: 50px;
     }
     .creating-advertising{
-        width: 370px;
+        width: 375px;
         height: 200px;
         flex-shrink: 0;
         color: #FFF;
@@ -530,11 +541,11 @@ button {
     }
     
     .block {
-        width: 370px; /* Блоки занимают всю ширину контейнера */
+        width: 375px; /* Блоки занимают всю ширину контейнера */
         margin: auto;
     }
     .colab-img{
-        width: 370px;
+        width: 375px;
         height: 440px;
     }
     .brands-big-two{
@@ -544,7 +555,7 @@ button {
         margin-top: 40px;
     }
     .my-goal{
-        width: 370px;
+        width: 375px;
         height: 100px;
         flex-shrink: 0;
         color: #FFF;
@@ -564,7 +575,7 @@ button {
         align-items: center;
     }
     .herosection-img{
-        width: 370px;
+        width: 375px;
     }
     .herosection-p{
         font-size: 71px;
@@ -572,7 +583,7 @@ button {
     }   
     .who-am-i{
         font-size: 16px;
-        width: 370px;
+        width: 375px;
         margin: auto;
         margin-top: 20px;
     }
@@ -580,7 +591,7 @@ button {
         font-size: 61px;
     }
     .icons{
-        width: 370px;
+        width: 375px;
         margin-top: 10px;
         margin-bottom: 20px;
     }
@@ -606,7 +617,7 @@ button {
     .main-container {
         padding-left: 0px;
         padding-right: 0px;
-        width: 370px;
+        width: 375px;
         margin: auto;
     }
     .sm-span{
@@ -614,5 +625,21 @@ button {
         flex-direction: column;
         align-items: center;
 
+    }
+    .winner-container{
+        flex-direction: column-reverse;
+
+    }
+    .winner-big{
+        font-size: 61px;
+        line-height: 60px
+    }
+    .winner-img{
+        width: 375px;
+        height: 460px;
+    }
+    .winner-p{
+        margin-top: -146px;
+        z-index: 96;
     }
 }
