@@ -278,10 +278,6 @@ height: 152px;
     z-index: 2;
   }
   
-
-  .logos:hover .logos-slide {
-    animation-play-state: paused;
-  }
   
   .logos-slide {
     display: inline-block;
@@ -402,16 +398,16 @@ button {
         z-index: 40;
     }
     .whats-reflects-me-img{
-        width: 320px;
-        height: 210px;
+        width: 370px;
+        height: 230px;
     }
 
     .whats-reflects-me-img-two{
-        height: 220px;
-        width: 320px;
+        height: 270px;
+        width: 370px;
     }
     .whats-reflects-me-first{
-        width: 320px;
+        width: 370px;
     }
 
     .whats-reflects-me-second p{
@@ -437,7 +433,7 @@ button {
         height: auto;
     }
     .vector-bg{
-    width: 320px;
+    width: 370px;
     font-size: 15px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -446,7 +442,7 @@ button {
 
     .cases {
         position: relative;
-        width: 320px; /* Ширина блока уменьшена для центрирования */
+        width: 370px; /* Ширина блока уменьшена для центрирования */
         margin: 0 auto; /* Центрирует блок .cases по горизонтали */
         z-index: 1; /* Убедитесь, что .cases всегда выше изображения */
         display: flex;
@@ -471,10 +467,11 @@ button {
     }
     :root {
         --marquee-elements-displayed: 2;
-        --marquee-width: 320px;
+        --marquee-width: 370px;
     }
     .cases-motto{
         margin-top: 50px;
+        margin-bottom: 55px;
     }
     .brands-big{
         font-size: 76px;
@@ -489,7 +486,7 @@ button {
         margin-top: 50px;
     }
     .creating-advertising{
-        width: 320px;
+        width: 370px;
         height: 200px;
         flex-shrink: 0;
         color: #FFF;
@@ -508,12 +505,12 @@ button {
     }
     
     .block {
-        width: 320px; /* Блоки занимают всю ширину контейнера */
+        width: 370px; /* Блоки занимают всю ширину контейнера */
         margin: auto;
     }
     .colab-img{
-        width: 320px;
-        height: 400px;
+        width: 370px;
+        height: 440px;
     }
     .brands-big-two{
         font-size: 44px;
@@ -522,7 +519,7 @@ button {
         margin-top: 40px;
     }
     .my-goal{
-        width: 320px;
+        width: 370px;
         height: 100px;
         flex-shrink: 0;
         color: #FFF;
@@ -542,23 +539,25 @@ button {
         align-items: center;
     }
     .herosection-img{
-        width: 320px;
+        width: 370px;
     }
     .herosection-p{
-        font-size: 61px;
+        font-size: 71px;
         margin-bottom: 40px;
     }   
     .who-am-i{
         font-size: 16px;
-        width: 320px;
+        width: 370px;
         margin: auto;
+        margin-top: 20px;
     }
     .herosection-span{
         font-size: 61px;
     }
     .icons{
-        width: 320px;
+        width: 370px;
         margin-top: 10px;
+        margin-bottom: 20px;
     }
     .icons a svg{
         width: 45px;
@@ -582,5 +581,11 @@ button {
     .main-container {
         padding-left: 35px;
         padding-right: 35px;
+    }
+    .sm-span{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
 }
