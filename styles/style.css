@@ -696,7 +696,9 @@ height: 802px;
   }
   
 
-  
+  .main-wrap{
+    overflow-x: hidden;
+  }
   
   .logos-slide {
     display: inline-block;
