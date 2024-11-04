@@ -387,6 +387,31 @@ button {
     width: 427px;
 }
 
+.winner-big{
+    text-align: center;
+    font-family: Inter;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 0.8;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) -2.69%, #FFF 93.01%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.winner-small{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px; /* 183.333% */
+    text-transform: uppercase;
+}
+.winner-p{
+    text-align: center;
+}
 
 
 @media (max-width: 1250px){
@@ -579,8 +604,10 @@ button {
         margin-top: 60px;
     }
     .main-container {
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 370px;
+        margin: auto;
     }
     .sm-span{
         display: flex;
