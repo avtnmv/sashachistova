@@ -33,7 +33,7 @@ body{
 .header-container{
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
 }
 .herosection-vector{
 position: absolute;
@@ -578,5 +578,9 @@ button {
     }
     .cooperation-motto{
         margin-top: 60px;
+    }
+    .main-container {
+        padding-left: 35px;
+        padding-right: 35px;
     }
 }
