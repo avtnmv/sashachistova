@@ -291,7 +291,7 @@ height: 152px;
   
 .creating-advertising{
     width: 426px;
-    height: 200px;
+    height: 330px;
     flex-shrink: 0;
     color: #FFF;
     font-size: 16px;
@@ -558,6 +558,8 @@ height: 802px;
         background-image: url(../img/advertising.svg);
         background-repeat: no-repeat;
         padding-top: 50px;
+        background-size: contain;
+    background-position: bottom;
         
     }
     .container {
@@ -661,6 +663,7 @@ height: 802px;
     .winner-img{
         width: 375px;
         height: 460px;
+        margin-top: 60px;
     }
     .winner-p{
         margin-top: -146px;
@@ -707,6 +710,9 @@ height: 802px;
     .ending{
         width: 375px;
         margin: auto;
+    }
+    .margin-minus{
+        margin-top: -10px;
     }
 }
 
