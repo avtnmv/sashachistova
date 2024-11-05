@@ -388,7 +388,7 @@ button {
     transform: rotate(180deg); /* Поворачиваем стрелочку на 180 градусов */
 }
 .colab-img{
-    height: 524px;
+    height: 520px;
     width: 427px;
 }
 
@@ -577,7 +577,7 @@ height: 802px;
     }
     .colab-img{
         width: 375px;
-        height: 440px;
+        height: 470px;
     }
     .brands-big-two{
         font-size: 44px;
